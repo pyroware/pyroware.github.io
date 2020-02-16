@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+}
+.hero-bg {
+  background: url(../images/prova-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+section a {
+  text-decoration: none;
+}
+section a h1 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+section a h1 span {
+  color: #e97000;
+}
+
+header {
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container ul {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-link {
+  margin: 1.5em;
+}
+
+.niche-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin-top: -5%;
+}
+
+.nav-link {
+  color: #fff;
+  position: relative;
+}
+
+.active {
+  position: relative;
+  color: #e97000;
+}
+
+.niche-wrapper h1 {
+  opacity: 1;
+  color: #fff;
+  padding: 0.4em 0;
+  font-size: 2.3em;
+}
+.niche-wrapper p {
+  opacity: 1;
+  color: #fff;
+  padding: 0.5em 0;
+}
+
+.button-wrapper {
+  border: 1px transparent;
+  border-radius: 20px;
+  background: #fc6a00;
+  padding: 1.2em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.button-wrapper a {
+  color: #fff;
+  font-weight: medium;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.icon-wrapper img {
+  width: 50px;
+  height: 57px;
+  position: absolute;
+  bottom: 10vh;
+}
