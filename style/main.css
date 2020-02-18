@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+header a {
+  margin-top: -1em;
+}
 body {
   font-family: "montserrat", sans-serif;
 }
@@ -92,10 +94,63 @@ header .container ul {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 1em;
 }
 .icon-wrapper img {
   width: 50px;
   height: 57px;
   position: absolute;
   bottom: 10vh;
+}
+
+.orange-bg {
+  background-color: #fc6a00;
+  color: white;
+}
+
+.desktop {
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 3em;
+}
+
+.list li {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.list li p {
+  margin: 1.5em;
+}
+
+.html-item {
+  margin: 0.4em 0;
+}
+
+.black-bg {
+  background-color: #303647;
+  padding: 3.5em;
+}
+.black-bg p {
+  text-align: center;
+  margin: 1.3em;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.icon-list li img {
+  width: 40px;
+  height: 40px;
 }
